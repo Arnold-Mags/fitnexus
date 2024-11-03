@@ -68,17 +68,17 @@ header('location:../index.php');
                 <table class="">
                   <tbody>
                     <tr>
-                      <td><h4>Perfect GYM Club</h4></td>
+                      <td><h4>FITNEXUS SAAS</h4></td>
                     </tr>
                     <tr>
-                      <td>5021  Wetzel Lane, Williamsburg</td>
+                      <td>ST. PAUL UNIVERSITY SURIGAO</td>
                     </tr>
                     
                     <tr>
                       <td>Tel: 231-267-6011</td>
                     </tr>
                     <tr>
-                      <td >Email: support@perfectgym.com</td>
+                      <td >Email: admin@gmail.com</td>
                     </tr>
                   </tbody>
                 </table>
@@ -102,7 +102,7 @@ header('location:../index.php');
                       <td><div class="text-center"><?php echo $row['services']; ?></div></td>
                       <td><div class="text-center"><?php if($row['plan'] == 0) { echo 'NONE';} else {echo $row['plan'].' Month/s';} ?></div></td>
                       <td><div class="text-center"><?php echo $row['address']; ?></div></td>
-                      <td><div class="text-center"><?php echo '$'.$row['amount']; ?></div></td>
+                      <td><div class="text-center"><?php echo '₱'.$row['amount']; ?></div></td>
                       <td><div class="text-center"><?php echo $row['attendance_count']; ?> Day/s</div></td>
                     </tr>
                   </tbody>

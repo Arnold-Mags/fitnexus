@@ -69,17 +69,17 @@ header('location:../index.php');
                 <table class="">
                   <tbody>
                   <tr>
-                      <td><h4>Perfect GYM Club</h4></td>
+                      <td><h4>FITNEXUS SAAS/td></h4></td>
                     </tr>
                     <tr>
-                      <td>5021  Wetzel Lane, Williamsburg</td>
+                      <td>ST. PAUL UNIVERSITY SURIGAO</td>
                     </tr>
                     
                     <tr>
                       <td>Tel: 231-267-6011</td>
                     </tr>
                     <tr>
-                      <td >Email: support@perfectgym.com</td>
+                      <td >Email: admin@gmail.com</td>
                     </tr>
                   </tbody>
                 </table>
