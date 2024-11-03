@@ -80,7 +80,7 @@ header('location:../index.php');
                 </div>
 
               <div class="form-actions">
-              <input type="hidden" name="userid" value="<?php echo $userid; ?>">
+              <input type="hidden" name="userid" value="<?php echo $_SESSION['user_id']; ?>">
                 <input id="add" class="btn btn-primary" type="submit" value="Add To List" />
                 <div id="status"></div>
               </div>
