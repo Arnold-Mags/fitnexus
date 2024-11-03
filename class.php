@@ -5,9 +5,9 @@
     <div class="container-fluid bg-primary p-5 bg-hero mb-5">
         <div class="row py-5">
             <div class="col-12 text-center">
-                <h1 class="display-2 text-uppercase text-white mb-md-4">Classes</h1>
+                <h1 class="display-2 text-uppercase text-white mb-md-4">Our Schedules</h1>
                 <a href="" class="btn btn-primary py-md-3 px-md-5 me-3">Home</a>
-                <a href="" class="btn btn-light py-md-3 px-md-5">Classes</a>
+                <a href="" class="btn btn-light py-md-3 px-md-5">Schedules</a>
             </div>
         </div>
     </div>
@@ -17,7 +17,7 @@
     <!-- Class Timetable Start -->
     <div class="container-fluid p-5">
         <div class="mb-5 text-center">
-            <h5 class="text-primary text-uppercase">Class Schedule</h5>
+            <h5 class="text-primary text-uppercase">Schedules</h5>
             <h1 class="display-3 text-uppercase mb-0">Working Hours</h1>
         </div>
         <div class="tab-class text-center">

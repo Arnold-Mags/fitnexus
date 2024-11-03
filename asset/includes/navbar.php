@@ -35,7 +35,7 @@
     <div class="container-fluid bg-dark px-0">
         <div class="row gx-0">
             <div class="col-lg-3 bg-dark d-none d-lg-block">
-                <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                <a href="index.php" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
                     <h1 class="m-0 display-4 text-primary text-uppercase">FITNEXUS</h1>
                 </a>
             </div>
@@ -73,7 +73,7 @@
                 </div>
                 <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0 px-lg-5">
                     <a href="index.php" class="navbar-brand d-block d-lg-none">
-                        <h1 class="m-0 display-4 text-primary text-uppercase">Gymster</h1>
+                        <h1 class="m-0 display-4 text-primary text-uppercase">FITNEXUS</h1>
                     </a>
                     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
@@ -89,7 +89,7 @@
                             <a href="about.php" class="nav-item nav-link <?php echo $current_page == 'about.php' ? 'active' : ''; ?>">About</a>
                             <a href="class.php" class="nav-item nav-link <?php echo $current_page == 'class.php' ? 'active' : ''; ?>">Classes</a>
                             <a href="team.php" class="nav-item nav-link <?php echo $current_page == 'team.php' ? 'active' : ''; ?>">Trainers</a>
-                            <a href="blog.php" class="nav-item nav-link <?php echo $current_page == 'blog.php' ? 'active' : ''; ?>">Announcements</a>
+                            <!--a href="blog.php" class="nav-item nav-link <//?php echo $current_page == 'blog.php' ? 'active' : ''; ?>">Announcements</a-->
                         <!--div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle <//?php echo in_array($current_page, ['blog.html', 'detail.html', 'testimonial.html']) ? 'active' : ''; ?>" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu rounded-0 m-0">
