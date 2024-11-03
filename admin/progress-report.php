@@ -5,11 +5,11 @@ if(!isset($_SESSION['user_id'])){
 header('location:../index.php');	
 }
 ?>
-<!-- Visit codeastro.com for more projects -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Gym System Admin</title>
+<title>FitNexus Admin</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="../css/bootstrap.min.css" />
@@ -31,7 +31,7 @@ header('location:../index.php');
 <!--close-Header-part--> 
 
 
-<!--top-Header-menu--><!-- Visit codeastro.com for more projects -->
+<!--top-Header-menu-->
 <?php include 'includes/topheader.php'?>
 <!--close-top-Header-menu-->
 <!--start-top-serch-->
@@ -39,7 +39,7 @@ header('location:../index.php');
   <input type="hidden" placeholder="Search here..."/>
   <button type="submit" class="tip-bottom" title="Search"><i class="icon-search icon-white"></i></button>
 </div> -->
-<!--close-top-serch--><!-- Visit codeastro.com for more projects -->
+<!--close-top-serch-->
 
 <!--sidebar-menu-->
 <?php $page='c-p-r'; include 'includes/sidebar.php'?>

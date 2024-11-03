@@ -2,7 +2,7 @@
 include('dbcon.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-    <!-- Visit codeastro.com for more projects -->
+    
 <head>
         <title>Gym System Admin</title><meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -69,12 +69,8 @@ include('dbcon.php'); ?>
                             }
                     }
             ?>
-            <div class="pull-left"><!-- Visit codeastro.com for more projects -->
-            <a href="../index.php"><h6>Admin Login</h6></a>
-            </div>
-
-            <div class="pull-right">
-            <a href="../customer"><h6>Customer Login</h6></a>
+            <div class="align-center">
+            <center><a href="../index.php"><h6>Back to Home</h6></a></center>
             </div>
             
         </div>

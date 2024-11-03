@@ -2,7 +2,7 @@
 include('dbcon.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-    <!-- Visit codeastro.com for more projects -->
+    
 <head>
         <title>Gym System Admin</title><meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -36,11 +36,11 @@ include('dbcon.php'); ?>
                     </div>
                 </div>
                 <div class="form-actions">
-                    <span class="pull-left"><a href="#" class="flip-link btn btn-info" id="to-recover">Join Now!</a></span>
+                    <span class="pull-left"><a href="#" class="flip-link btn btn-info" id="to-recover">Register</a></span>
                     <span class="pull-right"><button type="submit" name="login" class="btn btn-success" />Customer Login</button></span>
                 </div>
-                <div class="g">
-                <a href="../index.php"><h6>Go Back</h6></a>
+                <div class="align-center">
+                    <center><a href="../index.php"><h6>Back to Home</h6></a></center>
                 </div>
                 
                 <?php
@@ -73,8 +73,11 @@ include('dbcon.php'); ?>
                     }
             ?>
             </form>
+
+            
             <form id="recoverform" action="../customer/pages/register-cust.php" method="POST" class="form-vertical">
-				<p class="normal_text">Enter your details below and we will send your details for further activation process.</p>
+			<div class="control-group normal_text"> <h3><img src="img/fitlogo.png" alt="Logo" /></h3></div>	
+            <p class="normal_text">Enter your details below and we will send your details for further activation process.</p>
 			
 
                     <div class="controls">
@@ -158,7 +161,7 @@ include('dbcon.php'); ?>
                
                 <div class="form-actions">
                     <span class="pull-left"><a href="#" class="flip-link btn btn-success" id="to-login">&laquo; Back to login</a></span>
-                    <span class="pull-right"><button class="btn btn-info" type="SUBMIT">Submit Details</button></span>
+                    <span class="pull-right"><button class="btn btn-info" type="SUBMIT">Save Registration</button></span>
                 </div>
 
                 

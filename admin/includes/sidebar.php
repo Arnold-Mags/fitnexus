@@ -40,7 +40,6 @@
     </li>
 
      
-   
-    <!-- Visit codeastro.com for more projects -->
+  
   </ul>
 </div>
