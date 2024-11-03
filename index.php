@@ -11,8 +11,8 @@
                     <img class="w-100" src="asset/img/carousel-1.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-white text-uppercase">Best Gym Center</h5>
-                            <h1 class="display-2 text-white text-uppercase mb-md-4">Build Your Body Strong With Gymster</h1>
+                            <h5 class="text-white text-uppercase">Best Gym PLATFORM</h5>
+                            <h1 class="display-2 text-white text-uppercase mb-md-4">Build Your Body Strong With FITNEXUS</h1>
                             <a href="customer/index.php" class="btn btn-primary py-md-3 px-md-5 me-3">Join Us</a>
                             <a href="" class="btn btn-light py-md-3 px-md-5">Contact Us</a>
                         </div>
@@ -22,7 +22,7 @@
                     <img class="w-100" src="asset/img/carousel-2.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-white text-uppercase">Best Gym Center</h5>
+                            <h5 class="text-white text-uppercase">Best Gym PLATFORM</h5>
                             <h1 class="display-2 text-white text-uppercase mb-md-4">Grow Your Strength With Our Trainers</h1>
                             <a href="customer/index.php" class="btn btn-primary py-md-3 px-md-5 me-3">Join Us</a>
                             <a href="" class="btn btn-light py-md-3 px-md-5">Contact Us</a>
@@ -739,8 +739,8 @@
     <!-- Blog Start -->
     <div class="container-fluid p-5">
         <div class="mb-5 text-center">
-            <h5 class="text-primary text-uppercase">Our Blog</h5>
-            <h1 class="display-3 text-uppercase mb-0">Latest Blog Post</h1>
+            <h5 class="text-primary text-uppercase">Announcements</h5>
+            <h1 class="display-3 text-uppercase mb-0">Latest Announcements</h1>
         </div>
         <div class="row g-5">
             <div class="col-lg-4">

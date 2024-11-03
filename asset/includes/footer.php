@@ -7,7 +7,7 @@
                         <h4 class="text-uppercase text-light mb-4">Get In Touch</h4>
                         <div class="d-flex mb-2">
                             <i class="bi bi-geo-alt text-primary me-2"></i>
-                            <p class="mb-0">123 Street, New York, USA</p>
+                            <p class="mb-0">SPUS IT Students</p>
                         </div>
                         <div class="d-flex mb-2">
                             <i class="bi bi-envelope-open text-primary me-2"></i>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <!--div class="col-lg-4 col-md-6">
                 <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-5">
                     <h4 class="text-uppercase text-white mb-4">Newsletter</h4>
                     <h6 class="text-uppercase text-white">Subscribe Our Newsletter</h6>
@@ -60,19 +60,19 @@
                         </div>
                     </form>
                 </div>
-            </div>
+            </div-->
         </div>
     </div>
     <div class="container-fluid py-4 py-lg-0 px-5" style="background: #111111;">
         <div class="row gx-5">
             <div class="col-lg-8">
                 <div class="py-lg-4 text-center">
-                    <p class="text-secondary mb-0">&copy; <a class="text-light fw-bold" href="#">Your Site Name</a>. All Rights Reserved.</p>
+                    <p class="text-secondary mb-0">&copy; <a class="text-light fw-bold" href="#">FITNEXUS</a>. All Rights Reserved.</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="py-lg-4 text-center credit">
-                    <p class="text-light mb-0">Designed by <a class="text-light fw-bold" href="https://htmlcodex.com">HTML Codex</a></p>
+                    <p class="text-light mb-0">Designed by <a class="text-light fw-bold" href="https://htmlcodex.com">SPUS 4TH YEAR IT STUDENTS</a></p>
                 </div>
             </div>
         </div>

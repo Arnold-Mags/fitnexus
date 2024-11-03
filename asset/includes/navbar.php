@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>GYMSTER - Gym HTML Template</title>
+    <title>FITNEXUS SITE</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -87,17 +87,18 @@
                     <div class="navbar-nav mr-auto py-0">
                             <a href="index.php" class="nav-item nav-link <?php echo $current_page == 'index.php' ? 'active' : ''; ?>">Home</a>
                             <a href="about.php" class="nav-item nav-link <?php echo $current_page == 'about.php' ? 'active' : ''; ?>">About</a>
-                            <a href="class.html" class="nav-item nav-link <?php echo $current_page == 'class.html' ? 'active' : ''; ?>">Classes</a>
-                            <a href="team.html" class="nav-item nav-link <?php echo $current_page == 'team.html' ? 'active' : ''; ?>">Trainers</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle <?php echo in_array($current_page, ['blog.html', 'detail.html', 'testimonial.html']) ? 'active' : ''; ?>" data-bs-toggle="dropdown">Pages</a>
+                            <a href="class.php" class="nav-item nav-link <?php echo $current_page == 'class.php' ? 'active' : ''; ?>">Classes</a>
+                            <a href="team.php" class="nav-item nav-link <?php echo $current_page == 'team.php' ? 'active' : ''; ?>">Trainers</a>
+                            <a href="blog.php" class="nav-item nav-link <?php echo $current_page == 'blog.php' ? 'active' : ''; ?>">Announcements</a>
+                        <!--div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle <//?php echo in_array($current_page, ['blog.html', 'detail.html', 'testimonial.html']) ? 'active' : ''; ?>" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu rounded-0 m-0">
-                                <a href="blog.html" class="dropdown-item <?php echo $current_page == 'blog.html' ? 'active' : ''; ?>">Blog Grid</a>
-                                <a href="detail.html" class="dropdown-item <?php echo $current_page == 'detail.html' ? 'active' : ''; ?>">Blog Detail</a>
-                                <a href="testimonial.html" class="dropdown-item <?php echo $current_page == 'testimonial.html' ? 'active' : ''; ?>">Testimonial</a>
+                                <a href="blog.html" class="dropdown-item <//?php echo $current_page == 'blog.html' ? 'active' : ''; ?>">Blog Grid</a>
+                                <a href="detail.html" class="dropdown-item <//?php echo $current_page == 'detail.html' ? 'active' : ''; ?>">Blog Detail</a>
+                                <a href="testimonial.html" class="dropdown-item <//php echo $current_page == 'testimonial.html' ? 'active' : ''; ?>">Testimonial</a>
                             </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link <?php echo $current_page == 'contact.html' ? 'active' : ''; ?>">Contact</a>
+                        </div-->
+                        <a href="contact.php" class="nav-item nav-link <?php echo $current_page == 'contact.php' ? 'active' : ''; ?>">Contact</a>
                         </div>
 
                         <div class="btn-group d-none d-lg-block">
