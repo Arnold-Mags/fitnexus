@@ -60,65 +60,72 @@ header('location:../index.php');
 
         
           <table class='table table-bordered table-hover'>
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>Fullname</th>
-                  <th>Contact Number</th>
-                  <th>Choosen Service</th>
-                  <th>Action</th>
-                </tr>
-              </thead>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Fullname</th>
+            <th>Contact Number</th>
+            <th>Choosen Service</th>
+            <th>Action</th>
+        </tr>
+    </thead>
 
-             <?php include "dbcon.php";
-              date_default_timezone_set('Asia/Kathmandu');
-              //$current_date = date('Y-m-d h:i:s');
-                 $current_date = date('Y-m-d h:i A');
-                $exp_date_time = explode(' ', $current_date);
-                 $todays_date =  $exp_date_time['0'];
-                     $qry="SELECT * FROM members WHERE status = 'Active'";
-                    $result=mysqli_query($conn,$qry);
-                   $i=1;
-              $cnt = 1;
-            while($row=mysqli_fetch_array($result)){ ?>
-            
-           <tbody> 
-               
+    <?php
+    include "dbcon.php";
+    date_default_timezone_set('Asia/Kathmandu');
+    $current_date = date('Y-m-d h:i A');
+    $exp_date_time = explode(' ', $current_date);
+    $todays_date = $exp_date_time[0];
+
+    $qry = "SELECT * FROM members WHERE status = 'Active'";
+    $result = mysqli_query($conn, $qry);
+    $cnt = 1;
+
+    while ($row = mysqli_fetch_array($result)) { ?>
+        <tbody>
+            <tr>
                 <td><div class='text-center'><?php echo $cnt; ?></div></td>
                 <td><div class='text-center'><?php echo $row['fullname']; ?></div></td>
                 <td><div class='text-center'><?php echo $row['contact']; ?></div></td>
                 <td><div class='text-center'><?php echo $row['services']; ?></div></td>
+                <input type="hidden" name="user_id" value="<?php echo $row['user_id']; ?>">
 
-                <!-- <span>count</span><br>CHECK IN</td> -->
-                <input type="hidden" name="user_id" value="<?php echo $row['id'];?>">
-
-            <?php
-                $qry = "SELECT * FROM attendance WHERE curr_date = '$todays_date' AND user_id = '".$row['user_id']."'";
-                $res = $conn->query($qry);
-                $num_count  = mysqli_num_rows($res);
-                $row_exist = mysqli_fetch_array($res);
-                $curr_date = $row_exist['curr_date'];
-                if($curr_date == $todays_date){
-  
-              ?>
-                <td>
-                <div class='text-center'><span class="label label-inverse"><?php echo $row_exist['curr_date'];?>  <?php echo $row_exist['curr_time'];?></span></div>
-                <div class='text-center'><a href='actions/delete-attendance.php?id=<?php echo $row['user_id'];?>'><button class='btn btn-danger'>Check Out <i class='fas fa-clock'></i></button> </a></div>
-                </td>
-
-            <?php } else {
+                <?php
+                // Query for attendance data
+                $attendance_qry = "SELECT * FROM attendance WHERE curr_date = '$todays_date' AND user_id = '".$row['user_id']."'";
+                $res = $conn->query($attendance_qry);
                 
-                ?>
+                // Check if a row was returned
+                if ($res && mysqli_num_rows($res) > 0) {
+                    $row_exist = mysqli_fetch_array($res);
+                    $curr_date = $row_exist['curr_date'];
+                    
+                    if ($curr_date == $todays_date) { ?>
+                        <td>
+                            <div class='text-center'>
+                                <span class="label label-inverse"><?php echo $row_exist['curr_date']; ?> <?php echo $row_exist['curr_time']; ?></span>
+                            </div>
+                            <div class='text-center'>
+                                <a href='actions/delete-attendance.php?id=<?php echo $row['user_id']; ?>'>
+                                    <button class='btn btn-danger'>Check Out <i class='fas fa-clock'></i></button>
+                                </a>
+                            </div>
+                        </td>
+                    <?php }
+                } else { ?>
+                    <td>
+                        <div class='text-center'>
+                            <a href='actions/check-attendance.php?id=<?php echo $row['user_id']; ?>'>
+                                <button class='btn btn-info'>Check In <i class='fas fa-map-marker-alt'></i></button>
+                            </a>
+                        </div>
+                    </td>
+                <?php } ?>
+            </tr>
+        </tbody>
+    <?php $cnt++; } ?>
+</table>
 
-                <td><div class='text-center'><a href='actions/check-attendance.php?id=<?php echo $row['user_id'];?>'><button class='btn btn-info'>Check In <i class='fas fa-map-marker-alt'></i></button> </a></div></td>
-             
-                <?php }
-              ?>      
-              </tbody>
-           <?php $cnt++; } ?>
-           
-
-            </table>
           </div>
         </div>
    

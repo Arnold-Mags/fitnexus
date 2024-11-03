@@ -76,17 +76,17 @@ while($row=mysqli_fetch_array($result)){
                       <td><img src="../img/gym-logo.png" alt="Gym Logo" width="175"></td>
                     </tr>
                     <tr>
-                      <td><h4>Perfect GYM Club</h4></td>
+                      <td><h4>FITNEXUS SAAS</h4></td>
                     </tr>
                     <tr>
-                      <td>5021  Wetzel Lane, Williamsburg</td>
+                      <td>ST. PAUL UNIVERSITY SURIGAO</td>
                     </tr>
                     
                     <tr>
-                      <td>Tel: 231-267-6011</td>
+                      <td>Tel: (086) 12345678/td>
                     </tr>
                     <tr>
-                      <td >Email: support@perfectgym.com</td>
+                      <td >Email: admin@gmail.com</td>
                     </tr>
                   </tbody>
                 </table>
