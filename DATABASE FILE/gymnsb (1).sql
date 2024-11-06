@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Nov 03, 2024 at 05:54 AM
+-- Generation Time: Nov 06, 2024 at 03:17 AM
 -- Server version: 8.0.31
 -- PHP Version: 8.2.0
 
@@ -34,14 +34,15 @@ CREATE TABLE IF NOT EXISTS `admin` (
   `password` varchar(50) NOT NULL,
   `name` varchar(50) NOT NULL,
   PRIMARY KEY (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `admin`
 --
 
 INSERT INTO `admin` (`user_id`, `username`, `password`, `name`) VALUES
-(2, 'admin', 'f2d0ff370380124029c2b807a924156c', 'admin');
+(2, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin'),
+(4, 'admin2', '0192023a7bbd73250516f069df18b500', 'Administrator');
 
 -- --------------------------------------------------------
 
@@ -55,7 +56,14 @@ CREATE TABLE IF NOT EXISTS `announcements` (
   `message` varchar(100) NOT NULL,
   `date` date NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `announcements`
+--
+
+INSERT INTO `announcements` (`id`, `message`, `date`) VALUES
+(11, 'The peso has the symbol \"?\", introduced during American rule in place of the original peso sign \"$\" ', '2024-11-04');
 
 -- --------------------------------------------------------
 
@@ -123,7 +131,14 @@ CREATE TABLE IF NOT EXISTS `members` (
   `progress_date` date NOT NULL,
   `reminder` int NOT NULL DEFAULT '0',
   PRIMARY KEY (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `members`
+--
+
+INSERT INTO `members` (`user_id`, `fullname`, `username`, `password`, `gender`, `dor`, `services`, `amount`, `paid_date`, `p_year`, `plan`, `address`, `contact`, `status`, `attendance_count`, `ini_weight`, `curr_weight`, `ini_bodytype`, `curr_bodytype`, `progress_date`, `reminder`) VALUES
+(2, 'Thirdy Mantilla', 'user', '473c96b98e2f77d32eb4fe44a5dcf4b5', 'Male', '2024-11-03', 'Sauna', 900, '2024-11-03', 2024, '3', 'Ferdinand', '123243465', 'Active', 0, 0, 0, '', '', '0000-00-00', 0);
 
 -- --------------------------------------------------------
 
@@ -193,14 +208,15 @@ CREATE TABLE IF NOT EXISTS `staffs` (
   `gender` varchar(10) NOT NULL,
   `contact` int NOT NULL,
   PRIMARY KEY (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `staffs`
 --
 
 INSERT INTO `staffs` (`user_id`, `username`, `password`, `email`, `fullname`, `address`, `designation`, `gender`, `contact`) VALUES
-(5, 'thirdy', 'ee11cbb19052e40b07aac0ca060c23ee', 'admin@gmail.com', 'Thirdy Mantilla', 'Ferdinand', 'Manager', 'Male', 123456789);
+(6, 'ty', '36f3af6226e0b5303e19b824e7442272', 'user@gmail.com', 'Tyron', 'Ferdinand', 'Manager', 'Male', 1232334),
+(7, 'user', '7e58d63b60197ceb55a1c487989a3720', 'admin@gmail.com', 'Hendive', 'Ferdinand', 'Trainer', 'Male', 2147483647);
 
 -- --------------------------------------------------------
 
@@ -215,7 +231,7 @@ CREATE TABLE IF NOT EXISTS `todo` (
   `task_desc` varchar(30) NOT NULL,
   `user_id` int NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=30 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `todo`
@@ -228,7 +244,8 @@ INSERT INTO `todo` (`id`, `task_status`, `task_desc`, `user_id`) VALUES
 (23, 'In Progress', 'Triceps Buildup - 3 set', 14),
 (24, 'Pending', 'Decline dumbbell bench press', 6),
 (27, 'Pending', 'dddd', 0),
-(28, 'In Progress', 'Test 1', 23);
+(28, 'In Progress', 'Test 1', 23),
+(36, 'In Progress', 'DUMBEL 200x', 2);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
