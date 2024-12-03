@@ -42,10 +42,10 @@
                     </ul>
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="pills-1">
-                            <p class="text-secondary mb-0">Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
+                            <p class="text-secondary mb-0">FitNexus is dedicated to optimizing services for fitness establishments through cutting-edge software solutions. Our platform seamlessly integrates various features such as user management, scheduling, and analytics to enhance the overall experience for both clients and staff. With a focus on usability, customization, and data-driven decision-making, FitNexus is designed to streamline operations and improve service delivery across the fitness industry. By providing a user-friendly interface and robust technical infrastructure, we aim to help fitness centers thrive in an increasingly competitive market.</p>
                         </div>
                         <div class="tab-pane fade" id="pills-2">
-                            <p class="text-secondary mb-0">Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
+                            <p class="text-secondary mb-0">At FitNexus, we offer a comprehensive software solution designed to elevate the performance of fitness establishments. Our platform is tailored to meet the needs of both clients and staff, providing seamless integration of user management, scheduling, and analytics. With a focus on simplicity and customization, FitNexus allows fitness centers to efficiently manage operations, improve customer satisfaction, and enhance data-driven decision-making. Choose FitNexus for a robust, scalable, and user-friendly solution that helps you stay ahead in the competitive fitness industry.</p>
                         </div>
                     </div>
                 </div>
@@ -62,15 +62,15 @@
                 <div class="bg-light rounded text-center p-5">
                     <i class="flaticon-six-pack display-1 text-primary"></i>
                     <h3 class="text-uppercase my-4">Body Building</h3>
-                    <p>Sed amet tempor amet sit kasd sea lorem dolor ipsum elitr dolor amet kasd elitr duo vero amet amet stet</p>
+                    <p>FitNexus supports bodybuilders by offering tools to track their progress, manage training schedules, and analyze performance. Our platform allows users to set personalized goals, monitor workout routines, and access performance analytics, helping to optimize their bodybuilding journey. Whether you are a beginner or an advanced athlete, FitNexus empowers you to reach your goals with precision and ease.</p>
                     <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-center p-5">
                     <i class="flaticon-barbell display-1 text-primary"></i>
-                    <h3 class="text-uppercase my-4">Weight Lefting</h3>
-                    <p>Sed amet tempor amet sit kasd sea lorem dolor ipsum elitr dolor amet kasd elitr duo vero amet amet stet</p>
+                    <h3 class="text-uppercase my-4">Weight Lifting</h3>
+                    <p>FitNexus provides a comprehensive approach to weight lifting by allowing users to track their routines, set specific goals, and measure their progress. Our platform delivers insights into strength gains, workout history, and performance analytics, helping users fine-tune their training. Whether focusing on endurance or maximum strength, FitNexus ensures you reach new milestones in your lifting goals.</p>
                     <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
@@ -78,13 +78,13 @@
                 <div class="bg-light rounded text-center p-5">
                     <i class="flaticon-bodybuilding display-1 text-primary"></i>
                     <h3 class="text-uppercase my-4">Muscle Building</h3>
-                    <p>Sed amet tempor amet sit kasd sea lorem dolor ipsum elitr dolor amet kasd elitr duo vero amet amet stet</p>
+                    <p>FitNexus helps users build muscle effectively by offering tools for tracking workouts, monitoring progress, and optimizing nutrition. Our platform enables users to customize training plans, track muscle growth, and analyze performance metrics. Whether working on hypertrophy or overall strength, FitNexus equips you with the insights necessary to maximize muscle development and achieve fitness goals.</p>
                     <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-12 col-md-6 text-center">
-                <h1 class="text-uppercase text-light mb-4">30% Discount For This Summer</h1>
-                <a href="" class="btn btn-primary py-3 px-5">Become A Member</a>
+                <h1 class="text-uppercase text-light mb-4"></h1>
+                <a href="" class="btn btn-primary py-3 px-5">Subscribe Now!</a>
             </div>
         </div>
     </div>

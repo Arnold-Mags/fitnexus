@@ -11,8 +11,8 @@
                     <img class="w-100" src="asset/img/carousel-1.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-white text-uppercase">Best Gym PLATFORM</h5>
-                            <h1 class="display-2 text-white text-uppercase mb-md-4">Build Your Body Strong With FITNEXUS</h1>
+                            <h5 class="text-white text-uppercase">Ultimate Fitness Management Solution</h5>
+                            <h1 class="display-2 text-white text-uppercase mb-md-4">Transform Your Fitness Journey with FITNEXUS</h1>
                             <a href="customer/index.php" class="btn btn-primary py-md-3 px-md-5 me-3">Join Us</a>
                             <a href="" class="btn btn-light py-md-3 px-md-5">Contact Us</a>
                         </div>
@@ -22,8 +22,8 @@
                     <img class="w-100" src="asset/img/carousel-2.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-white text-uppercase">Best Gym PLATFORM</h5>
-                            <h1 class="display-2 text-white text-uppercase mb-md-4">Grow Your Strength With Our Trainers</h1>
+                            <h5 class="text-white text-uppercase">Ultimate Fitness Management Solution</h5>
+                            <h1 class="display-2 text-white text-uppercase mb-md-4">Elevate Your Fitness, Empower Your Potential</h1>
                             <a href="customer/index.php" class="btn btn-primary py-md-3 px-md-5 me-3">Join Us</a>
                             <a href="" class="btn btn-light py-md-3 px-md-5">Contact Us</a>
                         </div>
@@ -58,8 +58,8 @@
                     <h5 class="text-primary text-uppercase">About Us</h5>
                     <h1 class="display-3 text-uppercase mb-0">Welcome to FITNEXUS</h1>
                 </div>
-                <h4 class="text-body mb-4">Diam dolor diam ipsum tempor sit. Clita erat ipsum et lorem stet no labore lorem sit clita duo justo magna dolore</h4>
-                <p class="mb-4">Nonumy erat diam duo labore clita. Sit magna ipsum dolor sed ea duo at ut. Tempor sit lorem sit magna ipsum duo. Sit eos dolor ut sea rebum, diam sea rebum lorem kasd ut ipsum dolor est ipsum. Et stet amet justo amet clita erat, ipsum sed at ipsum eirmod labore lorem.</p>
+                <h4 class="text-body mb-4">Your Partner in Fitness Innovation. Revolutionize how you manage memberships, appointments, and analytics with our streamlined platform.</h4>
+                <p class="mb-4">At FITNEXUS, we empower fitness establishments to deliver exceptional experiences, saving time and boosting efficiency. Elevate your services, connect with clients, and achieve unparalleled growth—all in one place.</p>
                 <div class="rounded bg-dark p-5">
                     <ul class="nav nav-pills justify-content-between mb-3">
                         <li class="nav-item w-50">
@@ -71,10 +71,10 @@
                     </ul>
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="pills-1">
-                            <p class="text-secondary mb-0">Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
+                            <p class="text-secondary mb-0">FitNexus is dedicated to optimizing services for fitness establishments through cutting-edge software solutions. Our platform seamlessly integrates various features such as user management, scheduling, and analytics to enhance the overall experience for both clients and staff. With a focus on usability, customization, and data-driven decision-making, FitNexus is designed to streamline operations and improve service delivery across the fitness industry. By providing a user-friendly interface and robust technical infrastructure, we aim to help fitness centers thrive in an increasingly competitive market.</p>
                         </div>
                         <div class="tab-pane fade" id="pills-2">
-                            <p class="text-secondary mb-0">Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
+                            <p class="text-secondary mb-0">At FitNexus, we offer a comprehensive software solution designed to elevate the performance of fitness establishments. Our platform is tailored to meet the needs of both clients and staff, providing seamless integration of user management, scheduling, and analytics. With a focus on simplicity and customization, FitNexus allows fitness centers to efficiently manage operations, improve customer satisfaction, and enhance data-driven decision-making. Choose FitNexus for a robust, scalable, and user-friendly solution that helps you stay ahead in the competitive fitness industry.</p>
                         </div>
                     </div>
                 </div>
@@ -91,15 +91,15 @@
                 <div class="bg-light rounded text-center p-5">
                     <i class="flaticon-six-pack display-1 text-primary"></i>
                     <h3 class="text-uppercase my-4">Body Building</h3>
-                    <p>Sed amet tempor amet sit kasd sea lorem dolor ipsum elitr dolor amet kasd elitr duo vero amet amet stet</p>
+                    <p>FitNexus supports bodybuilders by offering tools to track their progress, manage training schedules, and analyze performance. Our platform allows users to set personalized goals, monitor workout routines, and access performance analytics, helping to optimize their bodybuilding journey. Whether you are a beginner or an advanced athlete, FitNexus empowers you to reach your goals with precision and ease.</p>
                     <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light rounded text-center p-5">
                     <i class="flaticon-barbell display-1 text-primary"></i>
-                    <h3 class="text-uppercase my-4">Weight Lefting</h3>
-                    <p>Sed amet tempor amet sit kasd sea lorem dolor ipsum elitr dolor amet kasd elitr duo vero amet amet stet</p>
+                    <h3 class="text-uppercase my-4">Weight Lifting</h3>
+                    <p>FitNexus provides a comprehensive approach to weight lifting by allowing users to track their routines, set specific goals, and measure their progress. Our platform delivers insights into strength gains, workout history, and performance analytics, helping users fine-tune their training. Whether focusing on endurance or maximum strength, FitNexus ensures you reach new milestones in your lifting goals.</p>
                     <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
@@ -107,13 +107,13 @@
                 <div class="bg-light rounded text-center p-5">
                     <i class="flaticon-bodybuilding display-1 text-primary"></i>
                     <h3 class="text-uppercase my-4">Muscle Building</h3>
-                    <p>Sed amet tempor amet sit kasd sea lorem dolor ipsum elitr dolor amet kasd elitr duo vero amet amet stet</p>
+                    <p>FitNexus helps users build muscle effectively by offering tools for tracking workouts, monitoring progress, and optimizing nutrition. Our platform enables users to customize training plans, track muscle growth, and analyze performance metrics. Whether working on hypertrophy or overall strength, FitNexus equips you with the insights necessary to maximize muscle development and achieve fitness goals.</p>
                     <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-12 col-md-6 text-center">
-                <h1 class="text-uppercase text-light mb-4">30% Discount For This Summer</h1>
-                <a href="" class="btn btn-primary py-3 px-5">Become A Member</a>
+                <h1 class="text-uppercase text-light mb-4"></h1>
+                <a href="" class="btn btn-primary py-3 px-5">Subscribe Now!</a>
             </div>
         </div>
     </div>
@@ -710,22 +710,22 @@
                 </div>
                 <div class="owl-carousel testimonial-carousel">
                     <div class="testimonial-item">
-                        <p class="fs-4 fw-normal text-light mb-4"><i class="fa fa-quote-left text-primary me-3"></i>Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat dolor rebum sit ipsum.</p>
+                        <p class="fs-4 fw-normal text-light mb-4"><i class="fa fa-quote-left text-primary me-3"></i>As a fitness enthusiast, I rely on FitNexus to manage my routines and track my performance. The detailed analytics and goal-setting features have made a huge difference in my training. I now have a clearer understanding of my progress and what I need to focus on next to achieve my fitness objectives.</p>
                         <div class="d-flex align-items-center">
                             <img class="img-fluid rounded-circle" src="asset/img/testimonial-1.jpg" alt="">
                             <div class="ps-4">
-                                <h5 class="text-uppercase text-light">Client Name</h5>
-                                <span class="text-uppercase text-secondary">Profession</span>
+                                <h5 class="text-uppercase text-light">Emily Rivera</h5>
+                                <span class="text-uppercase text-secondary">Teacher</span>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item">
-                        <p class="fs-4 fw-normal text-light mb-4"><i class="fa fa-quote-left text-primary me-3"></i>Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat dolor rebum sit ipsum.</p>
+                        <p class="fs-4 fw-normal text-light mb-4"><i class="fa fa-quote-left text-primary me-3"></i>FitNexus has revolutionized the way I track my fitness progress. The platform's intuitive design makes it easy to manage my workouts and set clear goals. I’ve seen incredible improvements in my strength and muscle growth since using FitNexus. It truly helps me stay on top of my fitness journey.</p>
                         <div class="d-flex align-items-center">
                             <img class="img-fluid rounded-circle" src="asset/img/testimonial-2.jpg" alt="">
                             <div class="ps-4">
-                                <h5 class="text-uppercase text-light">Client Name</h5>
-                                <span class="text-uppercase text-secondary">Profession</span>
+                                <h5 class="text-uppercase text-light">James Thompson</h5>
+                                <span class="text-uppercase text-secondary">Influencer</span>
                             </div>
                         </div>
                     </div>
@@ -754,7 +754,7 @@
                             <h6 class="text-light text-uppercase mb-0">January</h6>
                             <span>2045</span>
                         </div>
-                        <a class="h5 text-uppercase text-light" href="">Sed amet tempor amet sit kasd sea lorem</h4></a>
+                        <a class="h5 text-uppercase text-light" href="">We are excited to announce the launch of FitNexus, a platform designed to elevate your fitness journey. With innovative tools for tracking workouts, setting goals, and analyzing performance, FitNexus ensures you stay on track and achieve your fitness. Get ready to experience smarter fitness management like never before.</h4></a>
                     </div>
                 </div>
             </div>
@@ -769,7 +769,9 @@
                             <h6 class="text-light text-uppercase mb-0">January</h6>
                             <span>2045</span>
                         </div>
-                        <a class="h5 text-uppercase text-light" href="">Sed amet tempor amet sit kasd sea lorem</h4></a>
+                        <a class="h5 text-uppercase text-light" href="">FitNexus introduces new features to improve your fitness experience. Our platform now offers personalized workout tracking and detailed performance analytics, designed to help you optimize your training and achieve your goals more efficiently. Get ready for a smarter, more efficient way to work out with FitNexus.                    
+
+                        </h4></a>
                     </div>
                 </div>
             </div>
@@ -784,7 +786,7 @@
                             <h6 class="text-light text-uppercase mb-0">January</h6>
                             <span>2045</span>
                         </div>
-                        <a class="h5 text-uppercase text-light" href="">Sed amet tempor amet sit kasd sea lorem</h4></a>
+                        <a class="h5 text-uppercase text-light" href="">FitNexus is proud to roll out our latest updates, enhancing the platform’s functionality for both fitness enthusiasts and gym managers. With new scheduling tools and user-friendly performance tracking, we’re committed to providing a seamless experience that supports your fitness goals and streamlines operations.</h4></a>
                     </div>
                 </div>
             </div>
