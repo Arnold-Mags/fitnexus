@@ -47,7 +47,7 @@ header('location:../index.php');
 <div id="content">
 <div id="content-header">
   <div id="breadcrumb"> <a href="index.php" title="Go to Home" class="tip-bottom"><i class="fas fa-home"></i> Home</a> <a href="#" class="tip-bottom">Manamge Members</a> <a href="#" class="current">Add Members</a> </div>
-  <h1>Member Entry Form</h1>
+  <h1>Add Member</h1>
 </div>
 <div class="container-fluid">
   <hr>
@@ -184,7 +184,7 @@ header('location:../index.php');
               <label class="control-label">Total Amount</label>
               <div class="controls">
                 <div class="input-append">
-                  <span class="add-on">$</span> 
+                  <span class="add-on">₱</span> 
                   <input type="number" placeholder="50" name="amount" class="span11">
                   </div>
               </div>
@@ -193,7 +193,7 @@ header('location:../index.php');
           
             
             <div class="form-actions text-center">
-              <button type="submit" class="btn btn-success">Submit Member Details</button>
+              <button type="submit" class="btn btn-success">ADD MEMBER</button>
             </div>
             </form>
 

@@ -39,7 +39,7 @@ header('location:../index.php');
 <div id="content">
   <div id="content-header">
     <div id="breadcrumb"> <a href="index.php" title="Go to Home" class="tip-bottom"><i class="fas fa-home"></i> Home</a> <a href="staffs.php">Staffs</a> <a href="staffs-entry.php" class="current">Staff Entry</a> </div>
-    <h1 class="text-center">GYM's Staff Entry Form <i class="fas fa-briefcase"></i></h1>
+    <h1 class="text-center">Register Staff <i class="fas fa-briefcase"></i></h1>
   </div>
   <div class="container-fluid"><hr>
     <div class="row-fluid">

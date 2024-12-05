@@ -110,7 +110,7 @@ header('location:../index.php');
                 <table class="table table-bordered table-invoice-full">
                   <tbody>
                     <tr>
-                      <td class="msg-invoice" width="55%"> <div class="text-center"><h4>Last Payment Done:  $<?php echo $row['amount']; ?>/-</h4>
+                      <td class="msg-invoice" width="55%"> <div class="text-center"><h4>Last Payment Done:  ₱<?php echo $row['amount']; ?>/-</h4>
                         <em><a href="#" class="tip-bottom" title="Registration Date" style="font-size:15px;">Member Since: <?php echo $row['dor']; ?> </a></em> </td>
                         </div>
                     </tr>

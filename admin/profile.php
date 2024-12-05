@@ -9,7 +9,7 @@ header('location:../index.php');
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Fit Nexus Staff</title>
+<title>FitNexus Admin</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="../css/bootstrap.min.css" />
@@ -17,7 +17,8 @@ header('location:../index.php');
 <link rel="stylesheet" href="../css/fullcalendar.css" />
 <link rel="stylesheet" href="../css/matrix-style.css" />
 <link rel="stylesheet" href="../css/matrix-media.css" />
-<link href="../font-awesome/css/font-awesome.css" rel="stylesheet" />
+<link href="../font-awesome/css/fontawesome.css" rel="stylesheet" />
+<link href="../font-awesome/css/all.css" rel="stylesheet" />
 <link rel="stylesheet" href="../css/jquery.gritter.css" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
 </head>
@@ -25,14 +26,12 @@ header('location:../index.php');
 
 <!--Header-part-->
 <div id="header">
-  <h1><a href="dashboard.html">Perfect Gym</a></h1>
+  <h1><a href="dashboard.html">Perfect Gym Admin</a></h1>
 </div>
 <!--close-Header-part--> 
 
-
 <!--top-Header-menu-->
-<?php include '../includes/header.php'?>
-
+<?php include 'includes/topheader.php'?>
 <!--close-top-Header-menu-->
 <!--start-top-serch-->
 <!-- <div id="search">
@@ -40,93 +39,98 @@ header('location:../index.php');
   <button type="submit" class="tip-bottom" title="Search"><i class="icon-search icon-white"></i></button>
 </div> -->
 <!--close-top-serch-->
-<!--sidebar-menu-->
-
-<?php $page="member"; include '../includes/sidebar.php'?>
-
 
 <!--sidebar-menu-->
+<?php $page=''; include 'includes/sidebar.php'?>
+<!--sidebar-menu-->
+
+<?php
+include 'dbcon.php';
+$id=$_SESSION['user_id'];
+$qry= "select * from admin where user_id='$id'";
+$result=mysqli_query($conn,$qry);
+while($row=mysqli_fetch_array($result)){
+?> 
+
 <div id="content">
 <div id="content-header">
-  <div id="breadcrumb"> <a href="index.html" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a> <a href="#" class="tip-bottom">Manamge Members</a> <a href="#" class="current">Add Members</a> </div>
-  <h1>Member Entry Form</h1>
+  <div id="breadcrumb"> <a href="index.php" title="Go to Home" class="tip-bottom"><i class="fas fa-home"></i> Home</a><a href="profile.php" class="current">Update Admin Profile</a> </div>
+  <h1 class="text-center">Update Account <i class="fas fa-briefcase"></i></h1>
 </div>
-<form role="form" action="index.php" method="POST">
-            <?php 
+<div class="container-fluid">
+  <hr>
+  <div class="row-fluid">
+    <div class="span12">
+      <div class="widget-box">
+        <div class="widget-title"> <span class="icon"> <i class="fas fa-align-justify"></i> </span>
+          <h5>Details</h5>
+        </div>
+        <div class="widget-content nopadding">
 
-if(isset($_POST['fullname'])){
-$fullname = $_POST["fullname"];    
-$username = $_POST["username"];
-$password = $_POST["password"];
-$dor = $_POST["dor"];
-$gender = $_POST["gender"];
-$services = $_POST["services"];
-$amount = $_POST["amount"];
-$plan = $_POST["plan"];
-$address = $_POST["address"];
-$contact = $_POST["contact"];
+          <form action="update-profile.php" method="POST" class="form-horizontal">
+            <div class="control-group">
+              <label class="control-label">Full Name :</label>
+              <div class="controls">
+                <input type="text" class="span11" name="fullname" value='<?php echo $row['name']; ?>' />
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">Username :</label>
+              <div class="controls">
+                <input type="text" class="span11" name="username" value='<?php echo $row['username']; ?>' />
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">Password :</label>
+              <div class="controls">
+                <input type="password"  class="span11" name="password" placeholder="**********" value='<?php echo $row['username']; ?>'  disabled/>
+              </div>
+            </div>
 
-include 'dbcon.php';
-//code after connection is successfull
-$qry = "insert into members(fullname,username,password,dor,gender,services,amount,plan,address,contact) values ('$fullname','$username','$password','$dor','$gender','$services','$amount','$plan','$address','$contact')";
-$result = mysqli_query($conn,$qry); //query executes
+            <div class="form-actions text-center">
+             <!-- user's ID is hidden here -->
+             <input type="hidden" name="id" value="<?php echo $row['user_id'];?>">
+              <button type="submit" class="btn btn-success">Update Profile</button>
+        </div>
+           
+            
+          
+        </div>
+     
+        
+        <div class="widget-content nopadding">
+          <div class="form-horizontal">
+          
+        </div>
+        <div class="widget-content nopadding">
+          
+          </div>
 
-if(!$result){
-  echo"<div class='container-fluid'>";
-      echo"<div class='row-fluid'>";
-      echo"<div class='span12'>";
-      echo"<div class='widget-box'>";
-      echo"<div class='widget-title'> <span class='icon'> <i class='icon-info-sign'></i> </span>";
-          echo"<h5>Error Message</h5>";
-          echo"</div>";
-          echo"<div class='widget-content'>";
-              echo"<div class='error_ex'>";
-              echo"<h1 style='color:maroon;'>Error 404</h1>";
-              echo"<h3>Error occured while entering your details</h3>";
-              echo"<p>Please Try Again</p>";
-              echo"<a class='btn btn-warning btn-big'  href='edit-member.php'>Go Back</a> </div>";
-          echo"</div>";
-          echo"</div>";
-      echo"</div>";
-      echo"</div>";
-  echo"</div>";
-}else {
 
-  echo"<div class='container-fluid'>";
-      echo"<div class='row-fluid'>";
-      echo"<div class='span12'>";
-      echo"<div class='widget-box'>";
-      echo"<div class='widget-title'> <span class='icon'> <i class='icon-info-sign'></i> </span>";
-          echo"<h5>Message</h5>";
-          echo"</div>";
-          echo"<div class='widget-content'>";
-              echo"<div class='error_ex'>";
-              echo"<h1>Success</h1>";
-              echo"<h3>Member details has been added!</h3>";
-              echo"<p>The requested details are added. Please click the button to go back.</p>";
-              echo"<a class='btn btn-inverse btn-big'  href='members.php'>Go Back</a> </div>";
-          echo"</div>";
-          echo"</div>";
-      echo"</div>";
-      echo"</div>";
-  echo"</div>";
+        </div>
+      </div>
 
+      
+	
+    </div>
+    </form>
+    
+<?php
 }
-
-}else{
-    echo"<h3>YOU ARE NOT AUTHORIZED TO REDIRECT THIS PAGE. GO BACK to <a href='index.php'> DASHBOARD </a></h3>";
-}
-
-
 ?>
-                                    
-                                
-                                        
-                
-                                    </form>
-                                </div>
-</div></div>
+
+
+        </div>
+      </div>
+
+	
+  </div>
+  
+  <div class="row-fluid">
+   
+  </div>
 </div>
+
 
 <!--end-main-container-part-->
 
@@ -136,12 +140,12 @@ if(!$result){
   <div id="footer" class="span12"> <?php echo date("Y");?> &copy; SPUS IT STUDENTS</a> </div>
 </div>
 
+
 <style>
 #footer {
   color: white;
 }
 </style>
-
 <!--end-Footer-part-->
 
 <script src="../js/excanvas.min.js"></script> 
@@ -189,6 +193,7 @@ if(!$result){
 function resetMenu() {
    document.gomenu.selector.selectedIndex = 2;
 }
+
 </script>
 </body>
 </html>
